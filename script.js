@@ -21,7 +21,8 @@ button.onclick = function (){
 
 for (let i=0; i <localStorage.length; i++){
     var key =localStorage.key(i);
-    displayHistory.innerHTML +='${key}';
+    var city = localStorage.getItem(key);
+    
 }
 
 
